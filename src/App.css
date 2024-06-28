@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(rgb(229, 36, 143), rgb(228, 144, 193));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  width: 60vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.App-footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 20px;
+  width: 50vmin;
+}
+
+.App-body {
+  flex-grow: 1;
+}
+
+.App-body h3 {
+  width: 50vmin;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-top: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.reset-h1 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.txt-dark {
+  color: #750047;
+}
+
+.txt-bold {
+  font-weight: bold;
+}
+
+
+.number-plate {
+  border-radius: 100px;
+  background-color: #750047;
+  color: #fff;
+  padding: 20px 40px;
+  font-size: 80px;
+  font-weight: bold;
+}
